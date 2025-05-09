@@ -81,12 +81,12 @@ function sendToTelegram($filePath, $botToken, $chatId) {
     $url = "https://api.telegram.org/bot{$botToken}/sendDocument";
 
     # Jalali
-        //$time = jdate('H:i:s');
-        //$date = jdate('Y/m/d');
+        $time = jdate('H:i:s');
+        $date = jdate('Y/m/d');
     
     # Gregorian
-        $time = date('H:i:s');
-        $date = date('Y/m/d');
+        //$time = date('H:i:s');
+        //$date = date('Y/m/d');
 
     $postFields = [
         'chat_id' => $chatId,

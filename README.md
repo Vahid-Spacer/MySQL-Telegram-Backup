@@ -2,6 +2,13 @@
 
 A smart bot for automated MySQL database backups and Telegram delivery
 
+```
+bash <(curl -Ls https://raw.githubusercontent.com/Vahid-Spacer/MySQL-Telegram-Backup/main/run.sh)
+```
+```
+https://github.com/Vahid-Spacer/MySQL-Telegram-Backup
+```
+
 ## ✨ Key Features
 
 - Complete backup of all MySQL database tables

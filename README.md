@@ -1,39 +1,42 @@
 # MySQL-Telegram-Backup 🤖💾
 
-A smart bot for automated MySQL database backups and Telegram delivery
+Automated MySQL database backup solution with Telegram delivery
+
+## 🔧 Features
+
+- Complete MySQL database backup (structure + data)
+- Direct delivery to Telegram (user/channel)
+- Clean file management (auto-delete after sending)
+- Detailed error logging
+- Supports both Gregorian and Jalali dates (commented)
+- Secure connection with cURL
+
+## ⚙️ Technical Details
+
+- PHP 7.0+ compatible
+- Uses MySQLi for database operations
+- Telegram Bot API integration
+- cURL for secure file transfer
+- HTML-formatted captions with GitHub link
+
+## 📦 File Structure
+
+- `jdf.php` - Jalali date functions (included)
+- Configurable database credentials
+- Customizable backup filename format
+- Optional logging system
+
+## 🔄 Workflow
+
+1. Connects to MySQL server
+2. Backs up all tables with structure and data
+3. Sends SQL file via Telegram bot
+4. Cleans up temporary files
+5. Provides detailed operation logs
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Vahid-Spacer/MySQL-Telegram-Backup/main/run.sh)
-```
-```
-https://github.com/Vahid-Spacer/MySQL-Telegram-Backup
+📅 → 2023/12/01 ⏰ → 14:30
+⚙️ GitHub
 ```
 
-## ✨ Key Features
-
-- Complete backup of all MySQL database tables
-- Automatic sending of backup files to Telegram (user or channel)
-- Cron job scheduling capability
-- Persian (Jalali) date/time display in sent messages
-- Automatic season detection (Spring, Summer, Fall, Winter)
-- Error logging and operation status reporting
-
-## 🛠️ How It Works
-
-1. Connects to MySQL database using configured credentials
-2. Extracts structure and data from all tables
-3. Creates SQL backup file
-4. Sends file to Telegram with formatted caption including:
-   - Jalali date/time
-   - Current season
-   - Backup status
-
-## 🔧 Technical Implementation
-
-- PHP-based solution
-- Uses mysqli for database operations
-- Telegram Bot API for file delivery
-- Jalali date conversion support
-- Comprehensive error handling
-
-The bot automatically cleans up temporary files after successful delivery and provides detailed logs of all operations. Perfect for database administrators who need regular, remote backups via Telegram!
+[View on GitHub](https://github.com/Vahid-Spacer/MySQL-Telegram-Backup) | [Telegram Channel](t.me/Dev_SpaceX)

@@ -35,8 +35,8 @@ Automated MySQL database backup solution with Telegram delivery
 5. Provides detailed operation logs
 
 ```
-📅 → 2023/12/01 ⏰ → 14:30
+📅 → 2025/05/09 ⏰ → 18:00
 ⚙️ GitHub
 ```
 
-[View on GitHub](https://github.com/Vahid-Spacer/MySQL-Telegram-Backup) | [Telegram Channel](https://t.me/Dev_SpaceX)
+[View on GitHub](https://github.com/Vahid-Spacer/MySQL-Telegram-Backup) | [Telegram Channel](https://t.me/Dev_SpaceX) | [❤️ Donate](https://www.coffeebede.com/spacex)

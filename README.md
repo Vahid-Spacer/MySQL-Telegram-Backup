@@ -39,4 +39,4 @@ Automated MySQL database backup solution with Telegram delivery
 ⚙️ GitHub
 ```
 
-[View on GitHub](https://github.com/Vahid-Spacer/MySQL-Telegram-Backup) | [Telegram Channel](https://t.me/Dev_SpaceX) | [❤️ Donate](https://www.coffeebede.com/spacex)
+[View on GitHub](https://github.com/Vahid-Spacer/MySQL-Telegram-Backup) | [Telegram Channel](https://t.me/Dev_SpaceX) | [Donate ❤️](https://www.coffeebede.com/spacex)

@@ -2,7 +2,7 @@
 
 Automated MySQL database backup solution with Telegram delivery
 
-# Cron
+# Cron Host
 - Once Per Minute(* * * * *)
 ```
 /usr/bin/php -q /home/CpUser/public_html/Folder/db_backup.php>/dev/null 2>&1

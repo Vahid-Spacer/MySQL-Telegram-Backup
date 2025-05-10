@@ -2,6 +2,20 @@
 
 Automated MySQL database backup solution with Telegram delivery
 
+# Cron
+- Once Per Minute(* * * * *)
+```
+/usr/bin/php -q /home/CpUser/public_html/Folder/lib/cron.php>/dev/null 2>&1
+```
+- Twice Per Day(0 0,12 * * *)
+```
+/usr/bin/php -q /home/CpUser/public_html/Folder/lib/check.php>/dev/null 2>&1
+```
+# Cron Server
+```
+curl https://example.com/folder/db_backup.php/
+```
+
 ## 🔧 Features
 
 - Complete MySQL database backup (structure + data)
